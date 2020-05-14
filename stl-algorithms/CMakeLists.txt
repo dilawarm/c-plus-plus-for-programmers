@@ -5,3 +5,5 @@ project(stl)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++1y -Wall -Wextra")
 
 add_executable(all_of all_of.cpp)
+
+add_executable(any_of any_of.cpp)
