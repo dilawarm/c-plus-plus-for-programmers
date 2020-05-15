@@ -16,7 +16,7 @@ int main() {
     
     if (any_of(vec.begin(), vec.end(), [](int i) {
         return i < 0;
-    })) cout << "There are negative elements in the range" << endl;
+    })) cout << "There are negative elements in the range." << endl;
 
     return 0;
 }
