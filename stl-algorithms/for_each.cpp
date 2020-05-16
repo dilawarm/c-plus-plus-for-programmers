@@ -8,7 +8,7 @@ Function for_each(InputIterator first, InputIterator last, Function fn) {
         fn(*first);
         ++first;
     }
-    return fn;
+    return move(fn);
 }
 
 int main() {
