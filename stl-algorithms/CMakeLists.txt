@@ -11,3 +11,5 @@ add_executable(any_of any_of.cpp)
 add_executable(none_of none_of.cpp)
 
 add_executable(for_each for_each.cpp)
+
+add_executable(find find.cpp)
