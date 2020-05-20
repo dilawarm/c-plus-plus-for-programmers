@@ -17,3 +17,5 @@ add_executable(find find.cpp)
 add_executable(find_if find_if.cpp)
 
 add_executable(find_if_not find_if_not.cpp)
+
+add_executable(find_end find_end.cpp)
